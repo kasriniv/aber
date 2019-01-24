@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "aa4f875d-9164-4150-aae6-6c52bda48d07",
+		"name": "Abercrombie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://aberoauth-2445582224618.staging.gw.apicast.io:443",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzUkRidG5KNVp3NF9vaFZkblZaN2R5Z3l6UW5TVWNhNnpTbzVqNEpXUW84In0.eyJqdGkiOiI4ZmNkN2JmMS01Y2Q1LTQwOTMtYTlmMy00NDM3YzY2MTE0NWQiLCJleHAiOjE1NDgzNjQ0NzMsIm5iZiI6MCwiaWF0IjoxNTQ4MzY0MTczLCJpc3MiOiJodHRwOi8vc3NvLXJoc3NvLjE4LjE4OC4yMDIuMjQ3LnhpcC5pby9hdXRoL3JlYWxtcy90b3NoaWJhIiwiYXVkIjoiYTMxZWRmNzYiLCJzdWIiOiIxMDljNTJiYi0wZTY3LTQyYWEtYmNlOS04NWJmYjgxYjA3MjYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhMzFlZGY3NiIsImF1dGhfdGltZSI6MTU0ODM2NDE3Miwic2Vzc2lvbl9zdGF0ZSI6ImIwNDgyMTFhLTQ5ZTctNDNiZi1iMDczLTFhNDFkOGMzMTAwMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhcGl1c2VyIn0.TjwNyc4jbZ0nbPArokS8xL6ydniE_Bx2lVOR5nUhAZzcmotSwFt1zHQDTnyk_E40FCq6HtWzHMJbIrDMrKUHWQTetR97BHulDjA5jUqLmxAM-ki3moqKtbKkd54QemNdxD7Cb6wNkxrbYUxktuQZyQU8NrJxIqRyIw1fbWQ7ZGlr3AFX1FmyrqCuQa-a83eMfAgXniaCsRJk0QQBC0Ra1n9_PS8vFYqbWgI6m2wvyUvqwPz0of7b-BLq1y3xnQg4ATyJkQfmK2H8-HLpPqdrIPEP8MPFqrMVCC0PeO2lSgOlk8eRbB7cKGGy5WUTUT_aWkk2sQH4OAmp2XUwqjc-tQ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://aberoauth-2445582224618.staging.gw.apicast.io:443",
+					"protocol": "https",
+					"host": [
+						"aberoauth-2445582224618",
+						"staging",
+						"gw",
+						"apicast",
+						"io"
+					],
+					"port": "443"
+				}
+			},
+			"response": []
+		}
+	]
+}
